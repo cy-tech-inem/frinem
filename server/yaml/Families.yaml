@@ -1,0 +1,20 @@
+components:
+  schemas:
+    Families:
+      type: object
+      required:
+      - id
+      - name
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+
+      example:
+        id: 1
+        name: "Name of family product"
+
+tags:
+  name: Families
+  description: Families operations

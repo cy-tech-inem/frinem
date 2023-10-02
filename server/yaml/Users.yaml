@@ -1,0 +1,24 @@
+components:
+  schemas:
+    Users:
+      type: object
+      required:
+      - id
+      - name
+      - open_count
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        open_count:
+          type: integer
+
+      example:
+        id: 1
+        name: "Name of product"
+        quantity: 0
+
+tags:
+  name: Users
+  description: Users operations

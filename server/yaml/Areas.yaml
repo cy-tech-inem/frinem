@@ -1,0 +1,23 @@
+components:
+  schemas:
+    Areas:
+      type: object
+      required:
+      - id
+      - localisation
+      properties:
+        id:
+          type: integer
+        localisation:
+          type: string
+        products_id:
+          type: integer
+
+      example:
+        id: 1
+        name: "top-left"
+        products_id: 1
+
+tags:
+  name: Areas
+  description: Areas operations
